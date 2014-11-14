@@ -2,13 +2,42 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Assignment 10: Building with Bootstrap</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
     </head>
     <body>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <div class="container-fluid">
+			<div class="row-fluid">
+				 <div class="header col-md-12">header</div>
+				 <div class="sidebar col-md-4">left sidebar
+					<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">Dropdown<span class="caret"></span>
+					</button>
+					  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+					  </ul>
+					</div>
+				 </div>
+				 <div class="content col-md-8">right content area</div>
+				
+				 <div class="footer col-md-12">footer
+					<div class="btn-group" role="group" aria-label="...">
+					  <button type="button" class="btn btn-default">Left</button>
+					  <button type="button" class="btn btn-default">Middle</button>
+					  <button type="button" class="btn btn-default">Right</button>
+					</div>
+				  </div>
+  			</div>
+		</div>
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
